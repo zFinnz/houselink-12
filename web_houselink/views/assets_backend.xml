@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="web_houselink_assets_backend" name="multiupload assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/web_houselink/static/css/web.css"/>
+        </xpath>
+    </template>
+</odoo>
